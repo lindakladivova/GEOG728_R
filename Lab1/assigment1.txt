@@ -1,0 +1,14 @@
+
+
+For your lab assignment due next Wednesday please do the following.
+
+    Create an R Project for your lab assignment with version control (already done)
+    Create an Markdown file (html) titled Lab #1
+    In this R Markdown file create a new numerical variable and a new vector of numbers
+    Report these produced data objects and then apply at least two functions to each
+    Load a dataset from the R datasets package and report summary information on the dataset and its structure
+    Sign up for a free student account on github and include your github username in your Markdown file.
+    Your R Markdown file should include text describing what you are doing, code chunks where you run actual R code, and text describing the output
+    Use headers and include at least two examples of non-standard text formatting, and one list in your file
+    Knit your R Markdown file and upload a copy of the knit .html and the .Rmd file to Canvas
+

@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579880998794.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DE10C44F",
+    "lastKnownWriteTime" : 1579885690,
+    "last_content_update" : 1579885690769,
+    "path" : "~/Lab1/lab1.Rmd",
+    "project_path" : "lab1.Rmd",
+    "properties" : {
+        "cursorPosition" : "75,3",
+        "last_setup_crc32" : "59C6C89Abb338d19",
+        "scrollLine" : "53",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

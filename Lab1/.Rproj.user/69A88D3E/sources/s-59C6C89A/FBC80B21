@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579880902028.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "496902676",
+    "id" : "FBC80B21",
+    "lastKnownWriteTime" : 1579880922,
+    "last_content_update" : 1579880922687,
+    "path" : "~/Lab1/lab1.R",
+    "project_path" : "lab1.R",
+    "properties" : {
+        "cursorPosition" : "14,38",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

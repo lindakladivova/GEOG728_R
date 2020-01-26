@@ -1,0 +1,85 @@
+---
+title: "Lab1/Markdown"
+author: "Linda Kladivova"
+date: "1/24/2020"
+output: html_document
+---
+
+GitHub: https://github.com/lindakladivova?tab=repositories
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## First Markdown
+
+This is an R Markdown document. It is **exciting**. This is *italics*. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>. ***Bold and italics***
+
+We can do lists:
+* The space between the star and zour text is important.
+- A dash will work as well.
+ - A sub-list is indicated using indenting.
+ 
+1. This is a numbered list.
+2. This is item 2.
+
+3. Break
+
+## Test chunk
+
+```{r test}
+sigma <- 5.67E-8
+I_solar <- 1350 # watts per square meter
+albedo <- 0.3
+I_absorbed <- I_solar * (1 - albedo)
+T <- (I_absorbed / (4 * sigma))^0.25
+T
+```
+The value of T is `r T`.
+
+## Numerical variables and vector of numbers
+
+You can also create variables, vectors and lists:
+
+```{r pressure, echo=TRUE}
+x <- 6
+l <- 1: 10
+y <- 8
+set <- letters[1:10]
+z <- c(1,2,3,NA,4)
+x > 2
+x+y
+l > 4
+log(y)
+z > 2
+log(y,10)
+x^2
+min(l)
+Z_max <- max(z, na.rm = TRUE)
+Z_max 
+Z_min <- min(z, na.rm = TRUE)
+Z_min
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## How to process data
+
+Time to add some data. And to report summary information on the dataset and its structure:
+
+```{r iris, echo=TRUE}
+d <- read.csv("iris.csv", stringsAsFactors = FALSE) #just want the names
+head(d)
+head(d, 10)
+nrow(d)
+ncol(d)
+dim(d)
+```
+
+## Demo datasets
+
+```{r datasets, echo=TRUE}
+data(mtcars)
+mtcars
+View(mtcars)
+```
